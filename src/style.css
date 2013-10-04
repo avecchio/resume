@@ -1,0 +1,9 @@
+#header{
+	font-size:14pt;
+	font-weight:bold;
+}
+#info,#ref {
+	text-align:center;
+}
+#info{font-weight:bold;}
+#name{font-size:20pt;}
