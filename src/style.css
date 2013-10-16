@@ -8,8 +8,9 @@ body{
 	padding: 0;
 }
 p{
-
+float:left;
 }
+/*
 .header{
 	font-size:14pt;
 	font-weight:bold;
@@ -23,3 +24,4 @@ p{
 }
 #info,#corp{font-weight:bold;}
 #name{font-size:20pt;}
+*/
