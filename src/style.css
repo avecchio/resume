@@ -14,32 +14,16 @@ p{
 	widows: 0; 
 	orphans: 0 
 }
-p.header {}
-/*
-body{
-	height:11in;
-	width:8.5in;
-	margin-top:0in;
-	margin-bottom:0in;
-	margin-right:0.79in;
-	margin-left:0.79in;
-	padding: 0;
-}
-p{
-float:left;
-}
-/*
-.header{
+p#header {
 	font-size:14pt;
 	font-weight:bold;
 	margin: 0;
 	padding: 0;
 }
-#info,#ref {
+.info,.ref {
 	text-align:center;
 	margin: 0px;
 	padding: 0px;
 }
-#info,#corp{font-weight:bold;}
-#name{font-size:20pt;}
-*/
+.info,.corp{font-weight:bold;}
+.name{font-size:20pt;}
