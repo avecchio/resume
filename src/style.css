@@ -14,16 +14,16 @@ p{
 	widows: 0; 
 	orphans: 0 
 }
-p#header {
+#header {
 	font-size:14pt;
 	font-weight:bold;
 	margin: 0;
 	padding: 0;
 }
-.info,.ref {
+#info,#ref {
 	text-align:center;
 	margin: 0px;
 	padding: 0px;
 }
-.info,.corp{font-weight:bold;}
-.name{font-size:20pt;}
+#info,#corp{font-weight:bold;}
+#name{font-size:20pt;}
