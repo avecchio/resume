@@ -1,5 +1,5 @@
 \documentclass{article}
-\begin{document}
+\begin{resume}
 Austin Vecchio
 430 Woodlawn Avenue / Belleair, Fl 33756
 (c)727-252-3418 / au.vecchio@gmail.com
@@ -31,6 +31,8 @@ Robotics Software Mentor (Team 79) Since Spring 2013
 Cybersecurity Pilot Program at Sypris – Summer 2011
 Cybersecurity Competition Mitre – Summer 2012
 Piano, Archery
+%\begin{center}
 Github - https://github.com/avecchio
 References - Available upon request
-\end{document}
+%\end{center}
+%\end{resume}
