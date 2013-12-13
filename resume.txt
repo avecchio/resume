@@ -1,0 +1,36 @@
+\documentclass{article}
+\begin{document}
+Austin Vecchio
+430 Woodlawn Avenue / Belleair, Fl 33756
+(c)727-252-3418 / au.vecchio@gmail.com
+Work Experience:
+Mitre Corporation: 			June 11 – Present
+Freshman 1: Created ruby on rails application tunneling through a java application to control python scripts. Transcoded python to java.
+Freshman 2: Operate web apps to query using json and soap with security protocols.
+Sophomore 1: Built ozone widgets (front-end/back-end) to manage snapshots of other ozone widgets and compile meta data into an XML file
+Objective:
+Seeking co-op in the field of computer science, where a work environment will both challenge my capabilities and hone my skills while applying my knowledge to real world applications.
+Education:
+Kettering University, Flint, MI
+Status: Sophomore 2 – B-Section (Available for co-op Jan-March, July-Sept)
+Major: Computer Science   |   Minor: Systems &amp; Data Security/Computer Engineering
+Skills:
+%\begin{itemize}
+Computer Science:
+Scripting - Ruby, Java, Web Design(Js/Css/Html), PHP, Databases(Sql/Mongo)
+Frameworks – Chef,Jruby, Jquery
+Tools – Git, Vim, Wireshark, Nmap
+%\end{itemize}
+Computer Engineering: Digital Systems, networking(wired/wireless).
+Mechanical Engineering: Cad modeling in Autodesk Inventor, G &amp; M coding
+Other: Aerodynamics, robotics, rockets, airfoils
+Environments: Ubuntu, Kali, OSX, Windows
+Interests: Simulation, AI, Cybersecurity, Robotics
+Activities:
+Robotics Software Mentor (Team 79) Since Spring 2013
+Cybersecurity Pilot Program at Sypris – Summer 2011
+Cybersecurity Competition Mitre – Summer 2012
+Piano, Archery
+Github - https://github.com/avecchio
+References - Available upon request
+\end{document}
