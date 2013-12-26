@@ -1,10 +1,10 @@
-cp resume.txt html
-cp resume.txt pdf
+cp resume.tex html
+cp resume.tex pdf
 cd pdf
-pdflatex resume.txt
+pdflatex resume.tex
 cd ../html
-htlatex resume.txt
+htlatex resume.tex
 cd ..
-rm html/resume.txt
-rm pdf/resume.txt
+rm html/resume.tex
+rm pdf/resume.tex
 

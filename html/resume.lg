@@ -114,5 +114,15 @@ Css: div.author{white-space: nowrap;}
 Css: .quotation {margin-bottom:0.25em; margin-top:0.25em; margin-left:1em; }
 Css: .abstract p {margin-left:5%; margin-right:5%;}
 Css: div.abstract {width:100%;}
+Css: table.tabbing {width:100%; margin-top:1em;}
+Css: td.tabbing {width:33%;}
+Css: div.section {margin-left:3em;}
+Css: .center-addresses {width:100%}
+Css: .line-address {text-align:right;}
+Css: table.section td{ vertical-align:top;}
+Css: td.section {padding-right:2em; width:20%;}
+Css: table.section {margin-top:1em;}
+Css: .position table {width:100%;}
 --- characters ---
 Font("cmr","10","10","100")
+Font("cmsy","10","10","100")

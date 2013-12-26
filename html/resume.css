@@ -107,5 +107,14 @@ div.author{white-space: nowrap;}
 .quotation {margin-bottom:0.25em; margin-top:0.25em; margin-left:1em; }
 .abstract p {margin-left:5%; margin-right:5%;}
 div.abstract {width:100%;}
+table.tabbing {width:100%; margin-top:1em;}
+td.tabbing {width:33%;}
+div.section {margin-left:3em;}
+.center-addresses {width:100%}
+.line-address {text-align:right;}
+table.section td{ vertical-align:top;}
+td.section {padding-right:2em; width:20%;}
+table.section {margin-top:1em;}
+.position table {width:100%;}
 /* end css.sty */
 

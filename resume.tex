@@ -1,8 +1,12 @@
-\documentclass{article}
-\begin{resume}
-Austin Vecchio
-430 Woodlawn Avenue / Belleair, Fl 33756
+\documentclass{res}
+\usepackage[sharp]{easylist}
+\ListProperties(Progressive=3ex,Style*=$\bullet$ ,Style2*=$\circ$)
+\begin{document}
+\begin{center}
+\name{Austin Vecchio}
+\address{430 Woodlawn Avenue / Belleair, Fl 33756}
 (c)727-252-3418 / au.vecchio@gmail.com
+\end{center}
 Work Experience:
 Mitre Corporation: 			June 11 – Present
 Freshman 1: Created ruby on rails application tunneling through a java application to control python scripts. Transcoded python to java.
@@ -13,26 +17,27 @@ Seeking co-op in the field of computer science, where a work environment will bo
 Education:
 Kettering University, Flint, MI
 Status: Sophomore 2 – B-Section (Available for co-op Jan-March, July-Sept)
-Major: Computer Science   |   Minor: Systems &amp; Data Security/Computer Engineering
+Major: Computer Science   |   Minor: Systems \& Data Security/Computer Engineering
 Skills:
-%\begin{itemize}
-Computer Science:
-Scripting - Ruby, Java, Web Design(Js/Css/Html), PHP, Databases(Sql/Mongo)
-Frameworks – Chef,Jruby, Jquery
-Tools – Git, Vim, Wireshark, Nmap
-%\end{itemize}
-Computer Engineering: Digital Systems, networking(wired/wireless).
-Mechanical Engineering: Cad modeling in Autodesk Inventor, G &amp; M coding
-Other: Aerodynamics, robotics, rockets, airfoils
-Environments: Ubuntu, Kali, OSX, Windows
-Interests: Simulation, AI, Cybersecurity, Robotics
+\begin{easylist}%[itemize]\bfseries
+	# Computer Science:
+		## Scripting - Ruby, Java, Web Design(Js/Css/Html), PHP, Databases(Sql/Mongo)
+		## Frameworks – Chef,Jruby, Jquery
+		## Tools – Git, Vim, \LaTeX, Wireshark, Nmap
+	# Computer Engineering: Digital Systems, networking(wired/wireless).
+	# Mechanical Engineering: Cad modeling in Autodesk Inventor, G \& M coding
+	# Other: Aerodynamics, robotics, rockets, airfoils
+	# Environments: Ubuntu, Kali, OSX, Windows
+	# Interests: Simulation, AI, Cybersecurity, Robotics
+\end{easylist}
 Activities:
 Robotics Software Mentor (Team 79) Since Spring 2013
 Cybersecurity Pilot Program at Sypris – Summer 2011
 Cybersecurity Competition Mitre – Summer 2012
 Piano, Archery
-%\begin{center}
+\begin{center}
 Github - https://github.com/avecchio
 References - Available upon request
-%\end{center}
-%\end{resume}
+\end{center}
+\end{document}
+\end{resume}
