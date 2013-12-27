@@ -1,5 +1,10 @@
  
 /* start css.sty */
+.cmbx-12x-x-144{font-size:172%; font-weight: bold;}
+.cmbx-12x-x-144{ font-weight: bold;}
+.cmr-12{font-size:120%;}
+.cmbx-12{font-size:120%; font-weight: bold;}
+.cmbx-12{ font-weight: bold;}
 p.noindent { text-indent: 0em }
 td p.noindent { text-indent: 0em; margin-top:0em; }
 p.nopar { text-indent: 0em; }
@@ -107,6 +112,7 @@ div.author{white-space: nowrap;}
 .quotation {margin-bottom:0.25em; margin-top:0.25em; margin-left:1em; }
 .abstract p {margin-left:5%; margin-right:5%;}
 div.abstract {width:100%;}
+dt.enumerate-enumitem{float:left; clear:left; margin-left:1em; margin-right:1em;}
 table.tabbing {width:100%; margin-top:1em;}
 td.tabbing {width:33%;}
 div.section {margin-left:3em;}

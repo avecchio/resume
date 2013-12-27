@@ -1,3 +1,7 @@
+htfcss: cmbx  font-weight: bold;
+htfcss: cmbxsl  font-weight: bold; font-style: oblique;
+htfcss: cmbx  font-weight: bold;
+htfcss: cmbxsl  font-weight: bold; font-style: oblique;
 File: resume.html
 File: resume.css
 File: resume.tmp
@@ -114,6 +118,7 @@ Css: div.author{white-space: nowrap;}
 Css: .quotation {margin-bottom:0.25em; margin-top:0.25em; margin-left:1em; }
 Css: .abstract p {margin-left:5%; margin-right:5%;}
 Css: div.abstract {width:100%;}
+Css: dt.enumerate-enumitem{float:left; clear:left; margin-left:1em; margin-right:1em;}
 Css: table.tabbing {width:100%; margin-top:1em;}
 Css: td.tabbing {width:33%;}
 Css: div.section {margin-left:3em;}
@@ -125,4 +130,6 @@ Css: table.section {margin-top:1em;}
 Css: .position table {width:100%;}
 --- characters ---
 Font("cmr","10","10","100")
-Font("cmsy","10","10","100")
+Font("cmbx","12","12","144")
+Font("cmr","12","12","100")
+Font("cmbx","12","12","100")

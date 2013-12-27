@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=latex 2013.12.13)  26 DEC 2013 14:15
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=latex 2013.12.13)  26 DEC 2013 18:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -53,35 +53,16 @@ Package: tex4ht
 )
 (/usr/share/texmf/tex/generic/tex4ht/usepackage.4ht
 version 2009-05-21-09:32
-) (./easylist.sty
-Package: easylist 2010/02/28 v.1.3 Numbered items with a single command.
-\el@CounterTotal=\count88
-\el@Scratch=\count89
-\el@ControlCounter=\count90
-\el@CounterLevel=\count91
-\c@List1=\count92
-\c@List2=\count93
-\c@List3=\count94
-\c@List4=\count95
-\c@List5=\count96
-\c@List6=\count97
-\c@List7=\count98
-\c@List8=\count99
-\c@List9=\count100
-\c@List10=\count101
-\el@ProgressiveDimension=\dimen106
-
-! Font \el@ZapfDingbats=pzdr not loadable: Metric (TFM) file not found.
-<to be read again> 
-                   \par 
-l.629 
-      
-? 
-\el@CounterBox=\box26
-\el@ControlBox=\box27
-\el@TotalMargin=\dimen107
-\el@LeftMove=\dimen108
-) (/usr/share/texmf/tex/generic/tex4ht/tex4ht.4ht
+) (./enumitem.sty
+Package: enumitem 2011/09/28 v3.5.2 Customized lists
+\enitkv@toks@=\toks20
+\labelindent=\skip44
+\enit@outerparindent=\dimen106
+\enit@toks=\toks21
+\enit@inbox=\box26
+\enitdp@description=\count88
+)
+(/usr/share/texmf/tex/generic/tex4ht/tex4ht.4ht
 version 2009-01-07-07:11
 --------------------------------------
 --- Note --- for additional information, use the command line option `info'
@@ -94,11 +75,11 @@ version 2009-01-07-07:11
 version 2008-10-27-17:23
 
 --- needs --- tex4ht resume ---
-\tmp:cnt=\count102
+\tmp:cnt=\count89
 \openout15 = `resume.tmp'.
 
 (./resume.tmp)
-\tmp:dim=\skip44
+\tmp:dim=\skip45
 --------------------------------------
 --- Note --- for XML code, use the command line option `xml' or `xhtml'
 --------------------------------------
@@ -187,8 +168,8 @@ on `imgdir:.../'
 (/usr/share/texmf/tex/generic/tex4ht/html4-math.4ht
 version 2009-05-18-23:01
 )
-\:tokwrite=\toks20
-\:tokpage=\toks21
+\:tokwrite=\toks22
+\:tokpage=\toks23
 --------------------------------------
 --- Note --- for back links to toc, use the command line option `sections+'
 --------------------------------------
@@ -309,6 +290,15 @@ index=2)
 (/usr/share/texmf/tex/generic/tex4ht/html4-math.4ht
 version 2009-05-18-23:01
 ))
+(/usr/share/texmf/tex/generic/tex4ht/enumitem.4ht
+version 2009-05-21-09:32
+
+(/usr/share/texmf/tex/generic/tex4ht/html4.4ht
+version 2009-05-18-23:01
+)
+(/usr/share/texmf/tex/generic/tex4ht/html4-math.4ht
+version 2009-05-18-23:01
+))
 (/usr/share/texmf/tex/generic/tex4ht/res-a.4ht
 version 2009-05-21-09:32
 
@@ -324,51 +314,55 @@ version 2009-05-18-23:01
 (/usr/share/texmf/tex/generic/tex4ht/html4-math.4ht
 version 2009-05-18-23:01
 )) (./resume.aux)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
 --- file resume.css ---
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no “ in font cmr10!
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no “ in font cmr10!
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 14.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 14.
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no “ in font cmr12!
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 23.
+(Font)              <12> on input line 16.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 23.
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no “ in font cmr10!
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no “ in font cmr10!
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no “ in font cmr10!
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no “ in font cmr10!
+(Font)              <8> on input line 16.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 16.
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no “ in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no “ in font cmr12!
  [1
 
-] ) 
+]
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no “ in font cmr12!
+ [2] ) 
 Here is how much of TeX's memory you used:
- 3883 strings out of 495032
- 40210 string characters out of 6181556
- 229376 words of memory out of 5000000
- 7106 multiletter control sequences out of 15000+600000
- 3640 words of font info for 14 fonts, out of 8000000 for 9000
+ 3870 strings out of 495032
+ 42347 string characters out of 6181556
+ 228236 words of memory out of 5000000
+ 7074 multiletter control sequences out of 15000+600000
+ 7458 words of font info for 27 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 29i,4n,22p,656b,209s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 29i,4n,21p,663b,399s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on resume.dvi (1 page, 12892 bytes).
+Output written on resume.dvi (2 pages, 14508 bytes).
