@@ -1,0 +1,29 @@
+body { 
+    height: 11in;
+	width: 8.5in;
+	margin: 0.79in;
+	font-family: "Times New Roman", serif; 
+	direction: ltr; 
+	color: #00000a; 
+}
+p{ 
+	margin-bottom: 0.08in; 
+	font-size: 12pt; 
+	so-language: en-US;
+	line-height: 0.07in; 
+	widows: 0; 
+	orphans: 0 
+}
+#header {
+	font-size:14pt;
+	font-weight:bold;
+	margin: 0;
+	padding: 0;
+}
+#info,#ref {
+	text-align:center;
+	margin: 0px;
+	padding: 0px;
+}
+#info,#corp{font-weight:bold;}
+#name{font-size:20pt;}
