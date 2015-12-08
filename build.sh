@@ -6,5 +6,5 @@ pdflatex resume.tex
 #htlatex resume.tex
 #cd ..
 #rm html/resume.tex
-rm pdf/resume.tex
+#rm pdf/resume.tex
 
