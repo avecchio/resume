@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.9.27)  8 DEC 2015 10:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.9.27)  15 DEC 2015 11:15
 entering extended mode
 **resume.tex
 (resume.tex
@@ -81,20 +81,18 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 26.
 
-Overfull \hbox (20.1694pt too wide) in paragraph at lines 43--44
-[]\OT1/cmr/m/n/10 Tools - Docker, Packer, Mer-cu-rial, Chef, Git, Vim, Va-grant
-, L[]T[]X, Wire-shark, Nmap,Labview,
+Overfull \hbox (19.11694pt too wide) in paragraph at lines 40--41
+[]\OT1/cmr/m/n/10 Scripting - C/C++, Lua, Go, Haskell, Perl, Python, Ruby, PHP,
+ Java, Cof-fee-script/Javascript,
  []
 
-! I can't write on file `resume.pdf'.
-Please type another file name for output: 
 [1
 
 {C:/Users/Sinclair/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
 [2] ) 
 Here is how much of TeX's memory you used:
  591 strings out of 493673
- 7865 string characters out of 3145976
+ 7871 string characters out of 3145976
  65385 words of memory out of 3000000
  4014 multiletter control sequences out of 15000+200000
  4554 words of font info for 17 fonts, out of 3000000 for 9000
@@ -105,7 +103,7 @@ ram Files/Latex/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/Lat
 ex/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/Latex/fonts/type1
 /public/amsfonts/cm/cmr7.pfb><C:/Program Files/Latex/fonts/type1/public/amsfont
 s/cm/cmsy10.pfb>
-Output written on .pdf (2 pages, 67669 bytes).
+Output written on resume.pdf (2 pages, 68145 bytes).
 PDF statistics:
  29 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
