@@ -1,6 +1,7 @@
 #! /bin/bash
 
 lualatex resume.tex
+lualatex coverletter.tex
 #lualatex geaviation.tex
 #lualatex gehealthcare.tex
 #lualatex getransportation.tex
